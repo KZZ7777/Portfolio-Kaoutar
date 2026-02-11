@@ -1,37 +1,10 @@
-# Eliana - React JS Portfolio Template
-#### Preview
 
- - [Demo](https://themewagon.github.io/eliana-react/)
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/eliana-react/)
 
-## Getting Started
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/eliana-react.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-## Author 
-```
-Design and code is completely written by PrebuiltUI and development team. 
-```
+
 
 ## License
 
