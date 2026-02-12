@@ -28,7 +28,7 @@ export default function App() {
         />
 
         {/* Blog pagina */}
-        <Route path="/MyBlog" element={<MyBlog />} />
+        <Route path="/myblog" element={<MyBlog />} />
       </Routes>
 
       <Footer />
