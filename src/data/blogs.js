@@ -1,4 +1,3 @@
-
 export const blogs = [
     {
         id: 1,
@@ -12,7 +11,7 @@ export const blogs = [
         id: 2,
         date: '09/02/2026 - 14/02/2026',
         title: 'Week 2: Voortgang project en bespreking',
-        category: 'PostgreSQL', 
+        category: ['PostgreSQL', 'Linux', 'bash','docker'] ,
         description: 'In de tweede week werkten we verder aan het PITR- en PostgreSQL-project. Vandaag hadden we een meeting waarin we onze voortgang bespraken, uitdagingen toelichtten en mogelijke oplossingen bediscussieerden om het project vlot te laten verlopen.',
         image: ''
     }
