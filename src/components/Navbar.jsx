@@ -58,6 +58,7 @@ export default function Navbar() {
 
                 <ul ref={navLinkRef} className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo dark:border dark:border-white/30 dark:bg-transparent ">
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="/">Home</a></li>
+                    <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="/#internship">Internship</a></li>
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="/#about">About me</a></li>
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="/myblog">My Blogs</a></li>
                 </ul>
@@ -83,6 +84,7 @@ export default function Navbar() {
                     </div>
 
                     <li><a href="/" onClick={closeMenu}>Home</a></li>
+                    <li><a href="/#internship" onClick={closeMenu}>Internship</a></li>
                     <li><a href="/#about" onClick={closeMenu}>About me</a></li>
                     <li><a href="/myblog" onClick={closeMenu}>My Blog</a></li>
                    

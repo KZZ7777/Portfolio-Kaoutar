@@ -30,7 +30,7 @@ export default function Blog({ isHomePage = true }) {
               <span className="text-sm">{blog.date}</span>
             </div>
 
-            <h3 className="text-2xl font-Ovo text-gray-900 dark:text-white mb-3 hover:text-blue-500">
+            <h3 className="text-2xl font-Ovo text-gray-900 dark:text-white mb-3 ">
               {blog.title}
             </h3>
 

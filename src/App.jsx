@@ -5,6 +5,7 @@ import MyBlog from './components/MyBlog';
 import About from './components/About';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
+import Internship from './components/Internship';
 import LenisScroll from './components/LenisScroll';
 
 export default function App() {
@@ -19,10 +20,10 @@ export default function App() {
           path="/"
           element={
             <>
-              <Header />
-              
-              <Blog /> {/* Alleen op homepage */}
-              <About />
+            <Header />
+            <Internship/>
+            <Blog /> {/* Alleen op homepage */}
+            <About />
             </>
           }
         />

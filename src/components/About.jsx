@@ -1,32 +1,4 @@
 export default function About() {
-    const tools = [
-        { name: 'vscode', icon: './assets/vscode.png', },
-        { name: 'firebase', icon: './assets/firebase.png', },
-        { name: 'mongodb', icon: './assets/mongodb.png', },
-        { name: 'figma', icon: './assets/figma.png', },
-        { name: 'git', icon: './assets/git.png', },
-    ];
-
-    const data = [
-        {
-            name: 'Languages',
-            icon1: './assets/code-icon.png',
-            icon2: './assets/code-icon-dark.png',
-            description: 'HTML, CSS, JavaScript React Js, Next Js',
-        },
-        {
-            name: 'Education',
-            icon1: './assets/edu-icon.png',
-            icon2: './assets/edu-icon-dark.png',
-            description: 'B.Tech in Computer Science',
-        },
-        {
-            name: 'Projects',
-            icon1: './assets/project-icon.png',
-            icon2: './assets/project-icon-dark.png',
-            description: 'Built more than 5 projects',
-        },
-    ];
     return (
         <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
             <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
