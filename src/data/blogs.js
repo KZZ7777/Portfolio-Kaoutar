@@ -11,9 +11,17 @@ export const blogs = [
         id: 2,
         date: '09/02/2026 - 20/02/2026',
         title: 'Week 2 en 3: Voortgang project en bespreking',
-        category: ['PostgreSQL', 'Linux', 'bash','docker'] ,
-        description: 'In de tweede week werkten we verder aan het PITR- en PostgreSQL-project. Vandaag hadden we een meeting waarin we onze voortgang bespraken, uitdagingen toelichtten en mogelijke oplossingen bediscussieerden om het project vlot te laten verlopen.',
+        category: ['PostgreSQL', 'Linux', 'Terminal','Docker'] ,
+        description: ' Tijdens deze weken hebben we de PITR uitgevoerd met behulp van WAL-files, zowel in een lokale omgeving als binnen Docker. In de lokale en standaard Docker omgeving verliep dit succesvol. Bij het werken met Docker-volumes ondervonden we nog technische problemen die verder onderzocht en opgelost moeten worden. Daarnaast werkten we aan een duidelijke en gestructureerde documentatie, waarin we stap voor stap uitlegden hoe het systeem functioneert en hoe het PITR-proces correct wordt uitgevoerd.',
         image: ' ./assets/deskdrive_bureau.png'
        
+    },{
+        id:3,
+        date: '23/02/2026 - 27/02/2026',
+        title: 'Week 4: Voortgang project',
+        category: ['PostgreSQL', 'Linux', 'Terminal','Docker-volume'] ,
+        description: ' ',
+        image: ''
+        
     }
 ];

@@ -28,10 +28,9 @@ export default function Internship() {
                    <div className="p-6 rounded-2xl shadow-md max-w-xl space-y-3 border border border-purple-400/20 hover:border-purple-400/40">
                         <h3 className="font-Ovo mb-2">Contact Info:</h3>
                         <ul className="space-y-1 font-Ovo">
-                            <li><strong>Locatie:</strong> Liersebaan 12, 2240 Zandhoven, België</li>
-                            <li><strong>Telefoon:</strong> +32  3  410  16  20</li>
-                            <li><strong>Email:</strong> info@zandhoven.be</li>
-                            <li><strong>Website:</strong> <a href="https://www.zandhoven.be/" className="relative text-purple-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-0 after:bg-purple-400 after:transition-all after:duration-300 hover:after:w-full"> zandhoven.be</a></li>
+                            <li><strong>Locatie:</strong> Zandhoven, België</li>
+                            <li><strong>Email:</strong> info@deskdrive.com</li>
+                            <li><strong>Website:</strong> <a href="https://deskdrive.com/" className="relative text-purple-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-0 after:bg-purple-400 after:transition-all after:duration-300 hover:after:w-full"> deskdrive.be</a></li>
                         </ul>
                     </div>
                 </div>
