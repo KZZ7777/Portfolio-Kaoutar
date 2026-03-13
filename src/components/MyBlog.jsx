@@ -87,7 +87,7 @@ export default function MyBlog() {
                     rounded-2xl p-8 
                     transition-all duration-500 
                     hover:-translate-y-1
-                    grid gap-10 items-center
+                    grid gap-10 items-start
                     ${blog.image ? "md:grid-cols-2" : "md:grid-cols-1"}`}
       >
         {/* TEXT */}
@@ -117,18 +117,18 @@ export default function MyBlog() {
             ))}
           </div>
 
-          <p className="leading-6">
+          <p className="leading-6 whitespace-pre-line ">
             {blog.description}
           </p>
         </div>
 
         {/* IMAGE (only if exists) */}
         {blog.image && (
-          <div className="overflow-hidden rounded-2xl">
+          <div className="overflow-hidden rounded-2xl h-full">
             <img
               src={blog.image}
               alt={blog.title}
-              className="w-full h-64 object-cover object-[center_22%] transition-transform duration-500 hover:scale-105" 
+              className=" w-full max-h-[420px] object-cover rounded-2xl transition-transform duration-500 hover:scale-105" 
             />
           </div>
         )}
