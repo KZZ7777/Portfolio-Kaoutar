@@ -36,7 +36,7 @@ export const blogs = [
     {
         id:5,
         date: '09/03/2026 - 13/03/2026',
-        title: 'Week 5: Voortgang grote database restore en docker',
+        title: 'Week 6: Voortgang grote database restore en docker',
         category: ['PostgreSQL', 'Linux', 'Terminal','Docker'] ,
         description: ' Deze week heb ik gewerkt aan het onderzoeken van een probleem met Docker containers en bind mounts in mijn PostgreSQL recovery project. \n\nDe container kon bepaalde databasebestanden niet correct vinden, waardoor de recovery niet werkte zoals verwacht. Ik heb daarom onderzocht hoe Docker bind mounts precies werken en naar welke directories Docker kijkt op zowel de host als in de container. Tijdens dit proces heb ik verschillende configuraties getest om het probleem beter te begrijpen. Daarnaast heb ik een technisch artikel geraadpleegd om een alternatieve methode te vinden voor het herstellen van PostgreSQL back-ups. \n \nVolgens het artikel konden we echter ook niet tot de juiste oplossing komen voor het probleem dat we momenteel ervaren. Door dit onderzoek heb ik wel een beter inzicht gekregen in hoe Docker volumes werken en hoe PostgreSQL back-upbestanden gebruikt worden tijdens een herstelproces.',
        // image: './assets/pc_bureau.png'
