@@ -14,7 +14,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="mb-10 max-w-2xl font-Ovo">As a Programming graduate student, I enjoy experimenting and solving problems by figuring things out myself. I'm curious, quick to learn, and see every challenge as an opportunity to build something new while continuing to grow. Currently, I'm doing an internship at DeskDrive, where I'm gaining hands-on experience in real-world projects and sharpening my skills in software development. I'm passionate about creating practical solutions and continuously improving both my technical and problem-solving abilities..</p>
+                    <p className="mb-10 max-w-2xl font-Ovo">As a Programming graduate student, I enjoy experimenting and solving problems by figuring things out myself. I'm curious, quick to learn, and see every challenge as an opportunity to build something new while continuing to grow. Currently, I'm doing an internship at DeskDrive, where I'm gaining hands-on experience in real-world projects and sharpening my skills in software development. I'm passionate about creating practical solutions and continuously improving both my technical and problem-solving abilities.</p>
                 </div>
             </div>
         </div>
