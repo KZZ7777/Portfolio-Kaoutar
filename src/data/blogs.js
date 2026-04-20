@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import { image } from "framer-motion/client";
 
 export const blogs = [
@@ -54,6 +55,27 @@ export const blogs = [
         category: ['PostgreSQL', 'Linux'] ,
         description:'Deze week stond in het teken van de afwerking van het project en het automatiseren van de restore op de slave machine (recovery database op de computer). Het script werd succesvol ontwikkeld en vormt nu de basis voor een stabielere en efficiëntere recovery workflow.\n\nDaarnaast heb ik sterk ingezet op documentatie, zodat alles duidelijk en reproduceerbaar blijft. Tijdens dit proces kwamen er ook enkele fouten naar boven, die stap voor stap werden opgelost. Na het debuggen heb ik alles grondig getest om zeker te zijn dat het systeem betrouwbaar werkt.\n\nHalverwege de week heb ik een meeting gehad waarin ik het script heb voorgesteld en toegelicht. Daarnaast heb ik een demo gekregen over selenium en een korte uitleg over de werking ervan binnen het bedrijf, wat extra context bood voor het geheel.\n\nNa het voorstellen van het script tijdens de demo kreeg ik feedback en suggesties voor een betere aanpak van het script:\nCommands schrijven in één lijn met gebruik van absolute paden\nParameters verwerken binnen de command (zoals target time)\nEen nieuwe databasecluster opzetten om functionaliteiten te testen op PostgreSQL versie 16, aangezien ze van plan zijn om van versie 14 naar 16 over te zetten\nDe documentatie verder uitbreiden en aanpassen\n\nKort samengevat: een week met zichtbare vooruitgang, meer automatisatie en een duidelijke stap naar oplossingen die klaar zijn voor gebruik in productie.',
         image:''
-
     },
+    {
+        id:8,
+        date:'06/04/2026 - 17/04/2026',
+        title:'Week 10 en 11: Selenium testen in Java',
+        category:['Selenium testen', 'Java', 'coderen', 'intellij'],
+        description:'In week 10 en 11 heb ik gewerkt aan het schrijven van automatische testen in Java met Selenium in IntelliJ.\nWe kregen eerst een korte opfrissing van de developer opleiding om het systeem beter te begrijpen. Zo konden we gerichter testen zonder snel vast te lopen.\n\nWat heb ik getest:\n- Planning functionaliteiten\n- Toolbars binnen de planning\n- Koppelingen tussen entiteiten en taken\n- Verdere functionele testen op deze flows\n\nMoeilijkste deel:\nDe drag & drop tests in de planning waren het moeilijkst. Dit kostte de meeste tijd om stabiel en correct te automatiseren.\n\nIn week 11 werkten we vooral thuis en hadden we online meetings om voortgang en problemen te bespreken. Ook kregen we extra taken voor wanneer we klaar waren met onze tests.\n\nKort samengevat: veel geleerd over Selenium, debugging en het automatiseren van complexe UI-acties.',
+     //   image:'./assets/seleniumtestenopmonitor.jpeg'
+    }
 ];
+
+
+
+
+
+
+  // {
+    //     id:,
+    //     date:'',
+    //     title:'',
+    //     category:'',
+    //     description:'',
+    //     image:''
+    // }
